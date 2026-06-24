@@ -1,0 +1,40 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+publish_output/
+
+# Node / client
+reactapp1.client/node_modules/
+reactapp1.client/dist/
+reactapp1.client/.parcel-cache/
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+appsettings.*.json
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+*.log
+*.tmp
+
+# Ignore local DB files
+*.mdf
+*.ldf
