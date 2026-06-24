@@ -1,0 +1,20 @@
+/* עיצוב מותאם ל-DatePicker */
+.date-picker-custom {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 200px;
+    font-family: inherit;
+}
+
+.date-picker-custom:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+}
+
+.date-picker-custom::placeholder {
+    color: #999;
+}

@@ -1,0 +1,52 @@
+﻿#root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* התאמה למסכים גדולים */
+@media (min-width: 1280px) {
+    #root {
+        max-width: 1280px;
+        padding: 2rem;
+    }
+}
+
+/* התאמה לטאבלטים */
+@media (min-width: 768px) and (max-width: 1279px) {
+    #root {
+        padding: 1.5rem;
+    }
+}
+
+/* התאמה למכשירים ניידים */
+@media (max-width: 767px) {
+    #root {
+        padding: 0.5rem;
+    }
+}
+
+th, td {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* התאמה לטבלאות במסכים גדולים */
+@media (min-width: 768px) {
+    th, td {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* התאמה כללית לאלמנטים */
+* {
+    box-sizing: border-box;
+}
+
+/* וידוא שתמונות לא יוצאות מהמסך */
+img {
+    max-width: 100%;
+    height: auto;
+}
